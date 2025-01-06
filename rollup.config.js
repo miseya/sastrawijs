@@ -17,7 +17,7 @@ export default {
       format: "cjs",
     },
     {
-      file: pkg.module,
+      file: pkg.module.default,
       format: "es",
     },
   ],
