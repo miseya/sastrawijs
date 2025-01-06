@@ -8,7 +8,10 @@
   "exports": {
     ".": {
       "require": "./dist/sastrawijs.cjs.js",
-      "import": "./dist/sastrawijs.esm.mjs",
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/sastrawijs.esm.mjs"
+      },
       "browser": "./dist/sastrawijs.umd.js"
     },
     "./package.json": "./package.json",
